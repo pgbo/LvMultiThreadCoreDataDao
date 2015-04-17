@@ -51,7 +51,7 @@ NSArray *results = [storageDao filterObjectWithFetchRequest:request processor:^N
 ### Create a new object
 ```` objective-c
 **CustomModel** *obj = [[**CustomModel** alloc]init];
-// 假如obj已经有初始化，并且属性已经赋值了
+// Assume obj has been initialized and its attributes has been setted values
 [storageDao createNewOfManagedObjectClassName:@"**Custom Managed object class name**" operate:^(NSManagedObject *managedObj){
         [self fillManangedObj:managedObj withEntity:usageItem];
 }];
