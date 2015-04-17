@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="cCM-BA-7J1">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="wM7-hp-5bW">
+            <objects>
+                <viewController id="cCM-BA-7J1" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FNS-kj-Crg"/>
+                        <viewControllerLayoutGuide type="bottom" id="Aws-ec-2Hj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mA7-q1-C5f">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VJ2-nc-JVZ">
+                                <rect key="frame" x="254" y="279" width="93" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="9A0-x6-4Qi"/>
+                                    <constraint firstAttribute="width" constant="93" id="qvL-dL-0j5"/>
+                                </constraints>
+                                <state key="normal" title=" 启动测试">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickButn:" destination="cCM-BA-7J1" eventType="touchUpInside" id="m9R-op-zAL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="VJ2-nc-JVZ" secondAttribute="centerX" id="Nhx-Gq-5IS"/>
+                            <constraint firstAttribute="centerY" secondItem="VJ2-nc-JVZ" secondAttribute="centerY" id="p2C-eM-spq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="testButn" destination="VJ2-nc-JVZ" id="DAg-Vh-4wi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cRJ-HN-9H9" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
