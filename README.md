@@ -2,7 +2,7 @@
 
 ## Introduction
 
-LvMultiThreadCoreDataDao is an iOS framework that allows using core data conveniently and safety. It uses **ARC**. Requires **CoreData** framework. The sample make a test under multi-thread.
+LvMultiThreadCoreDataDao is an iOS framework that allows using core data conveniently and safety. It uses **ARC**. Requires **CoreData** framework. The sample test create 100 objects, 100 query operations and 100 delete operations under multi-thread.
 
 ## Adding to your project
 Just copy or drag the LvMultiThreadCoreDataDao folder into your projects.
