@@ -2,7 +2,8 @@
 //  LvMultiThreadCoreDataDao.m
 //  GalaToy
 //
-//  Created by 彭光波 on 15-4-17.
+//  Created by pengguangbo on 15-4-17.
+//   More about me, see http://www.pgboo.xyz
 //
 //
 
