@@ -50,10 +50,10 @@ NSArray *results = [storageDao filterObjectWithFetchRequest:request processor:^N
 ````
 ### Create a new object
 ```` objective-c
-**CustomModel** *obj = [[**CustomModel** alloc]init];
+**CustomModel** obj = [[**CustomModel** alloc]init];
 // Assume obj has been initialized and its attributes has been setted values
 [storageDao createNewOfManagedObjectClassName:@"**Custom Managed object class name**" operate:^(NSManagedObject *managedObj){
-        [self fillManangedObj:managedObj withEntity:usageItem];
+        [self fillManangedObj:managedObj withEntity:obj];
 }];
 ````
 ### Delete a object
